@@ -1,0 +1,1889 @@
+0.04
+0.76
+1.68
+2.39
+3.77
+4.90
+6.22
+7.73
+Command terminated by signal 15
+175.34
+Command terminated by signal 9
+1.87
+Process Worker-138:
+Process Worker-132:
+Process Worker-136:
+Process Worker-118:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-110:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-128:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-116:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-120:
+Process Worker-108:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-114:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-106:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-104:
+Process Worker-44:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-35:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-31:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-122:
+Traceback (most recent call last):
+Process Worker-92:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-43:
+Traceback (most recent call last):
+Process Worker-69:
+Process Worker-80:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-95:
+Process Worker-126:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-72:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-28:
+Traceback (most recent call last):
+Process Worker-40:
+Process Worker-48:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-20:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-96:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-74:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-89:
+Process Worker-24:
+Process Worker-135:
+Process Worker-39:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-36:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-79:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-23:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-109:
+Process Worker-62:
+Process Worker-47:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-66:
+Process Worker-52:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-107:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-56:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-112:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-134:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-111:
+Process Worker-75:
+Process Worker-61:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-68:
+Process Worker-70:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-81:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-87:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-55:
+Process Worker-76:
+Process Worker-85:
+Traceback (most recent call last):
+Process Worker-42:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-78:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-33:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-19:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-130:
+Process Worker-88:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-83:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-59:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-25:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-64:
+Process Worker-8:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-27:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-91:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-46:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-73:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-65:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-51:
+Process Worker-41:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-2:
+Traceback (most recent call last):
+Process Worker-127:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-98:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-113:
+Process Worker-22:
+Process Worker-86:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-32:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-26:
+Traceback (most recent call last):
+Process Worker-6:
+Process Worker-54:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-97:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-84:
+Process Worker-129:
+Process Worker-45:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-82:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-90:
+Traceback (most recent call last):
+Process Worker-34:
+Traceback (most recent call last):
+Process Worker-53:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-60:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-103:
+Process Worker-7:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-71:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-4:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-21:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-13:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-12:
+Process Worker-137:
+Process Worker-123:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-77:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-115:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-124:
+Traceback (most recent call last):
+Process Worker-11:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-125:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-10:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-67:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-119:
+Process Worker-105:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-14:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-29:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-58:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-37:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-93:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-101:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-5:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-38:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-1:
+Traceback (most recent call last):
+Process Worker-94:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-139:
+Process Worker-17:
+Process Worker-57:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-141:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-63:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-133:
+Process Worker-18:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-102:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-100:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-99:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-121:
+Process Worker-140:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Worker-9:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-50:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-49:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-142:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Process Worker-131:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 255, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-143:
+Traceback (most recent call last):
+Process Worker-117:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 255, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-30:
+Process Worker-3:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-144:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 255, in _bootstrap
+Process Worker-16:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Worker-15:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "matrix_mul.py", line 328, in <module>
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    sys.exit(main())
+  File "matrix_mul.py", line 324, in main
+    system.run()
+  File "matrix_mul.py", line 63, in run
+    worker.start()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 130, in start
+Process Worker-145:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 255, in _bootstrap
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 278, in run
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 204, in _receive
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    source_id, data = self._receive()
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__network_endpoint.receive(worker_id)
+    return self.__network_endpoint.receive(worker_id)
+    return self.__my_channel.receive(worker_id)
+    self.run()
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 278, in run
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    return self.__my_channel.receive(worker_id)
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+    return self.__network_endpoint.receive(worker_id)
+KeyboardInterrupt
+KeyboardInterrupt
+  File "matrix_mul.py", line 180, in receive
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    source_id, data = self._receive()
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 204, in _receive
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+KeyboardInterrupt
+  File "matrix_mul.py", line 180, in receive
+    return self.__network_endpoint.receive(worker_id)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 162, in receive
+    return self.__my_channel.receive(worker_id)
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 278, in run
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 204, in _receive
+    self.__network_endpoint.send(worker_id, data)
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 180, in receive
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    return self.__my_channel.receive(worker_id)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+    self.run()
+KeyboardInterrupt
+  File "matrix_mul.py", line 280, in run
+KeyboardInterrupt
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    self.run()
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 272, in run
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    source_id, data = self._receive()
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    source_id, data = self._receive()
+    return self.__network_endpoint.receive(worker_id)
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 204, in _receive
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 180, in receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 204, in _receive
+KeyboardInterrupt
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 180, in receive
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+KeyboardInterrupt
+KeyboardInterrupt
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    self.run()
+  File "matrix_mul.py", line 272, in run
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 201, in _send
+    return self.__network_endpoint.receive(worker_id)
+    return self.__network_endpoint.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 177, in send
+    return self.__my_channel.receive(worker_id)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 150, in send
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 204, in _receive
+    self.__exit_lock.acquire()
+    self.__network_endpoint.send(worker_id, data)
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 177, in send
+    return self.__network_endpoint.receive(worker_id)
+KeyboardInterrupt
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 180, in receive
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    return self.__my_channel.receive(worker_id)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 162, in receive
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self.run()
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 280, in run
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    self._send(next, [self.matrix])
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 180, in receive
+    return self.__network_endpoint.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 162, in receive
+    return self.__my_channel.receive(worker_id)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 150, in send
+    self.__exit_lock.acquire()
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__exit_lock.acquire()
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    self.run()
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 278, in run
+    self.__exit_lock.acquire()
+    source_id, data = self._receive()
+KeyboardInterrupt
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    self.run()
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+KeyboardInterrupt
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+    source_id, data = self._receive()
+KeyboardInterrupt
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 272, in run
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    source_id, data = self._receive()
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    return self.__network_endpoint.receive(worker_id)
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+KeyboardInterrupt
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 280, in run
+    self._send(next, [self.matrix])
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 272, in run
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+    self.run()
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 278, in run
+    return self.__network_endpoint.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+    self.__channels[destination_id].send(self.__my_id, data)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+    self.run()
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 270, in run
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 278, in run
+    self.run()
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 278, in run
+    self._send(next, [self.matrix])
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+    source_id, data = self._receive()
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 204, in _receive
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 177, in send
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 177, in send
+    return self.__network_endpoint.receive(worker_id)
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 180, in receive
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 150, in send
+    return self.__my_channel.receive(worker_id)
+    return self.__my_channel.receive(worker_id)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 162, in receive
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 150, in send
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 272, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 204, in _receive
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.run()
+    return self.__network_endpoint.receive(worker_id)
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 180, in receive
+KeyboardInterrupt
+  File "matrix_mul.py", line 204, in _receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 162, in receive
+    return self.__network_endpoint.receive(worker_id)
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+KeyboardInterrupt
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 204, in _receive
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    return self.__network_endpoint.receive(worker_id)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 150, in send
+    return self.__my_channel.receive(worker_id)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 201, in _send
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    self.__network_endpoint.send(worker_id, data)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+KeyboardInterrupt
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 270, in run
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 204, in _receive
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+    self._send(next, [self.matrix])
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 201, in _send
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 180, in receive
+    self.__channels[destination_id].send(self.__my_id, data)
+    return self.__my_channel.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 177, in send
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 177, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self._send(next, [self.matrix])
+    return self.__my_channel.receive(worker_id)
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 162, in receive
+KeyboardInterrupt
+  File "matrix_mul.py", line 150, in send
+KeyboardInterrupt
+    self.__exit_lock.acquire()
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__network_endpoint.send(worker_id, data)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 177, in send
+KeyboardInterrupt
+KeyboardInterrupt
+    self.__channels[destination_id].send(self.__my_id, data)
+KeyboardInterrupt
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    self.run()
+    return self.__network_endpoint.receive(worker_id)
+    self.run()
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 280, in run
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 162, in receive
+    self.run()
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 280, in run
+KeyboardInterrupt
+    self.run()
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 280, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 150, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__channels[destination_id].send(self.__my_id, data)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 150, in send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.__channels[destination_id].send(self.__my_id, data)
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 150, in send
+KeyboardInterrupt
+  File "matrix_mul.py", line 201, in _send
+KeyboardInterrupt
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__network_endpoint.send(worker_id, data)
+KeyboardInterrupt
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 270, in run
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__network_endpoint.send(worker_id, data)
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 177, in send
+KeyboardInterrupt
+  File "matrix_mul.py", line 204, in _receive
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+KeyboardInterrupt
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 280, in run
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    return self.__network_endpoint.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 177, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 272, in run
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    source_id, data = self._receive()
+    self.__network_endpoint.send(worker_id, data)
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 201, in _send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 150, in send
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 201, in _send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 177, in send
+    self.__network_endpoint.send(worker_id, data)
+    return self.__my_channel.receive(worker_id)
+KeyboardInterrupt
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 150, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__exit_lock.acquire()
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.run()
+KeyboardInterrupt
+    self.run()
+KeyboardInterrupt
+  File "matrix_mul.py", line 272, in run
+KeyboardInterrupt
+  File "matrix_mul.py", line 270, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    self.__network_endpoint.send(worker_id, data)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 162, in receive
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 278, in run
+    self.run()
+  File "matrix_mul.py", line 278, in run
+  File "matrix_mul.py", line 280, in run
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 272, in run
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 204, in _receive
+    self._send(next, [self.matrix])
+    self._send(next, [self.matrix])
+    return self.__network_endpoint.receive(worker_id)
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 180, in receive
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+    return self.__my_channel.receive(worker_id)
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 177, in send
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 162, in receive
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__exit_lock.acquire()
+    return self.__my_channel.receive(worker_id)
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__exit_lock.acquire()
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 272, in run
+  File "matrix_mul.py", line 272, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 150, in send
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+KeyboardInterrupt
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 272, in run
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 272, in run
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self._send(next, [self.matrix])
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+    self._send(next, [self.matrix])
+    self._send(next, [self.matrix])
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 201, in _send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__network_endpoint.send(worker_id, data)
+    return self.__network_endpoint.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+    return self.__network_endpoint.receive(worker_id)
+    return self.__network_endpoint.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+    self.__channels[destination_id].send(self.__my_id, data)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    return self.__my_channel.receive(worker_id)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 162, in receive
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 150, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 162, in receive
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 272, in run
+  File "matrix_mul.py", line 278, in run
+    source_id, data = self._receive()
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self._send(next, [self.matrix])
+KeyboardInterrupt
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 201, in _send
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 270, in run
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 270, in run
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 150, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 145, in send
+    self.__enter_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+    self._send(next, [self.matrix])
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 145, in send
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__enter_lock.acquire()
+KeyboardInterrupt
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 270, in run
+    self.run()
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 180, in receive
+  File "matrix_mul.py", line 201, in _send
+    return self.__my_channel.receive(worker_id)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 162, in receive
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 177, in send
+    self.__exit_lock.acquire()
+  File "matrix_mul.py", line 201, in _send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__network_endpoint.send(worker_id, data)
+KeyboardInterrupt
+  File "matrix_mul.py", line 177, in send
+KeyboardInterrupt
+    self.__channels[destination_id].send(self.__my_id, data)
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 201, in _send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+KeyboardInterrupt
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 280, in run
+  File "matrix_mul.py", line 272, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    source_id, data = self._receive()
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 204, in _receive
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    return self.__network_endpoint.receive(worker_id)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 180, in receive
+KeyboardInterrupt
+    return self.__my_channel.receive(worker_id)
+  File "matrix_mul.py", line 162, in receive
+    self.__exit_lock.acquire()
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+  File "matrix_mul.py", line 272, in run
+    self.run()
+  File "matrix_mul.py", line 262, in run
+    source_id, data = self._receive()
+  File "matrix_mul.py", line 204, in _receive
+    return self.__network_endpoint.receive(worker_id)
+  File "matrix_mul.py", line 180, in receive
+    return self.__my_channel.receive(worker_id)
+    block = self.genBlock()
+  File "matrix_mul.py", line 162, in receive
+  File "matrix_mul.py", line 243, in genBlock
+    self.__exit_lock.acquire()
+    return Block(x, y, data)
+  File "/home/adam/Dokumenty/ARIR/matrix.py", line 81, in __init__
+KeyboardInterrupt
+    self.run()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+  File "matrix_mul.py", line 270, in run
+    util._run_after_forkers()
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 157, in _run_after_forkers
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self._send(next, [self.matrix])
+KeyboardInterrupt
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    util._run_after_forkers()
+KeyboardInterrupt
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 157, in _run_after_forkers
+    self.run()
+  File "matrix_mul.py", line 270, in run
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    func(obj)
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+KeyboardInterrupt
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    self.run()
+    self.run()
+    util._run_after_forkers()
+  File "matrix_mul.py", line 270, in run
+    self.run()
+  File "matrix_mul.py", line 280, in run
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 154, in _run_after_forkers
+  File "matrix_mul.py", line 280, in run
+    self._send(next, [self.matrix])
+    self._send(next, [self.matrix])
+    items.sort()
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+  File "matrix_mul.py", line 201, in _send
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+    self.__network_endpoint.send(worker_id, data)
+KeyboardInterrupt
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 177, in send
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__channels[destination_id].send(self.__my_id, data)
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 150, in send
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+        func(obj)
+self._popen = Popen(self)
+  File "/usr/lib/python2.7/multiprocessing/synchronize.py", line 81, in _after_fork
+  File "/usr/lib/python2.7/multiprocessing/forking.py", line 121, in __init__
+    self.run()
+  File "matrix_mul.py", line 280, in run
+    util._run_after_forkers()
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 153, in _run_after_forkers
+    self._send(next, [self.matrix])
+  File "matrix_mul.py", line 201, in _send
+    items = list(_afterfork_registry.items())
+  File "/usr/lib/python2.7/weakref.py", line 145, in items
+    self.__network_endpoint.send(worker_id, data)
+  File "matrix_mul.py", line 177, in send
+    self.__channels[destination_id].send(self.__my_id, data)
+  File "matrix_mul.py", line 150, in send
+    time.sleep(self.__configuration.delay_connect + len(data) * self.__configuration.delay_transmit)
+KeyboardInterrupt
+    def __init__(self, x, y, data):
+KeyboardInterrupt
+    self.pid = os.fork()
+    obj._semlock._after_fork()
+KeyboardInterrupt
+KeyboardInterrupt
+    L.append((key, o))
+KeyboardInterrupt
+Command exited with non-zero status 1
+2.41
