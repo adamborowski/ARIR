@@ -30,12 +30,15 @@ class Prim:
             # następnie aktualizuj rozproszone d przekazując informację o tym jaki indeks został włączony
             u = Prim.indexOfMin(d, included)  # jak zrównoleglić: global minimum comes from reduction
             included[u] = True
+            # print "seq i={} u={} included={}".format(i, u, included)
             for v in range(size):  # to można zrównoleglić
                 if included[v] is False and matrix.hasEdge(u, v):
                     Wuv = matrix.getWeight(u, v)
                     if Wuv < d[v]:
                         d[v] = Wuv
                         edges[v] = u
+                        # print 'seq d[n] at i {} = {}'.format(i, d)
+                        # print 'seq included[n] at i {} = {}'.format(i, included)
 
         if printMe:
             for i in range(1, size):
@@ -54,6 +57,7 @@ class PrimPart:
 
         self.matrix = Matrix(matrixData)
         self.partSize = self.matrix.getNumCols()
+        self.partOffset = self.partSize * self.partNumber
 
         # --- INIT PRIM --- #
         self.r = 0
@@ -64,19 +68,28 @@ class PrimPart:
             self.d[self.r] = 0
         self.edges = [-1 for i in range(self.size)]
 
-    def processWeights(self, u):
-        localU = u - self.partSize * self.partNumber
+    def processWeights(self, i, u):
+
+        localU = u - self.partOffset
+
         if 0 <= localU < self.partSize:
+            # print "part size = {}, global u={} on part {} = local {} / offset = {}".format(self.partSize, u,
+            #                                                                                self.partNumber, localU,
+            #                                                                                self.partOffset)
             self.included[localU] = True
+
+        # print "par i={} included={}".format(i, self.included)
         for v in range(self.size):
             if self.included[v] is False and self.matrix.hasEdge(u, v):
                 Wuv = self.matrix.getWeight(u, v)
-                if Wuv < self.d[v]:
+                if Wuv <= self.d[v]:
                     self.d[v] = Wuv
                     self.edges[v] = u
+                    # print 'par d[n] = {}'.format(self.d)
+                    # print 'included[n] = {}'.format(self.included)
 
     def getIndexOfMin(self):
         index = Prim.indexOfMin(self.d, self.included)
-        globalIndex = index + self.partSize * self.partNumber
+        globalIndex = index + self.partOffset
         return globalIndex, self.d[index]
 

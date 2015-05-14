@@ -243,26 +243,20 @@ class Worker(multiprocessing.Process):
     def run(self):
         self.__log('Started.')
         printMe = True  # self.__configuration.noprint == 0
-        checkMe = printMe
+        checkMe = True
         wid = self.__worker_id
         numParts = self.__configuration.n_workers - 1
 
         matrixSize = self.__configuration.n_vertices
         partSize = matrixSize / numParts
         if wid == 0:
-            # matrixData = Utils.genSymArray(matrixSize)
-            matrixData = Utils.array2dFromStr("""
-0 0 7 0 1 1
-0 0 1 4 8 0
-7 1 0 6 5 7
-0 4 6 0 5 4
-1 8 5 5 0 5
-1 0 7 4 5 0
-""")
+            matrixData = Utils.genSymArray(matrixSize)
             # display info
             if printMe:
-                self.__log("Parallel Prim's algorithm for graph of size {} splitted into {} parts of {} vertices.".format(matrixSize,
-                                                                                                           numParts, partSize))
+                self.__log(
+                    "Parallel Prim's algorithm for graph of size {} splitted into {} parts of {} vertices.".format(
+                        matrixSize,
+                        numParts, partSize))
                 print 'The matrix is:\n{}'.format(Matrix(matrixData).toString())
             # seq test
             if checkMe:
@@ -291,6 +285,7 @@ class Worker(multiprocessing.Process):
                         minDist = minValue
                         u = indexOfMin
                 # w u mamy indeks który musimy ewentualnie przekazać podczas aktualizcji d[n]s
+                # print 'par i={} u={}'.format(i, u)
                 for partNumber in range(numParts):
                     self._send(partNumber + 1, [u])  # to pozwoli aktualizować to co mają!!!
             # zbieranie danych
@@ -301,24 +296,18 @@ class Worker(multiprocessing.Process):
             if printMe:
                 for i in range(1, matrixSize):
                     print "{}->{}".format(ltr(i), ltr(globalEdges[i]))
-            if checkMe:
-                parEdgesResult = str(globalEdges)
-                if printMe:
-                    print "seq result: \n{}, par result: \n{}".format(seqEdgesResult, parEdgesResult)
-                if seqEdgesResult != parEdgesResult:
-                    raise Exception("CALCULATION ERRORS")
-                else:
-                    if printMe:
-                        print "---------------------- SUCESS -------------------------"
+
 
         else:
+
             myPartNumber, matrixData = self._receive(0)[1]
             primPart = PrimPart(myPartNumber, matrixData)
             # każdy slave przesyła do rodzica dane o najtańszym połączeniu
             for i in range(matrixSize - 1):
                 self._send(0, primPart.getIndexOfMin())
                 includedIndex = self._receive(0)[1][0]
-                primPart.processWeights(includedIndex)
+                # print 'part {} i {} includedIndex {}'.format(myPartNumber, i, includedIndex)
+                primPart.processWeights(i, includedIndex)
             # każdy na koniec odsyła wektor edges
             self._send(0, primPart.edges)
         self.__log('Terminated.')
