@@ -250,11 +250,20 @@ class Worker(multiprocessing.Process):
         matrixSize = self.__configuration.n_vertices
         partSize = matrixSize / numParts
         if wid == 0:
-            matrixData = Utils.genSymArray(matrixSize)
+            # matrixData = Utils.genSymArray(matrixSize)
+            matrixData = Utils.array2dFromStr("""
+0 0 7 0 1 1
+0 0 1 4 8 0
+7 1 0 6 5 7
+0 4 6 0 5 4
+1 8 5 5 0 5
+1 0 7 4 5 0
+""")
             # display info
             if printMe:
                 self.__log("Parallel Prim's algorithm for graph of size {} splitted into {} parts of {} vertices.".format(matrixSize,
                                                                                                            numParts, partSize))
+                print 'The matrix is:\n{}'.format(Matrix(matrixData).toString())
             # seq test
             if checkMe:
                 if printMe:
