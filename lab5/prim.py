@@ -18,7 +18,7 @@ class Prim:
         return minIndex
 
     @staticmethod
-    def sequential(matrix):
+    def sequential(matrix, printMe=True):
         r = 0  # pierwszy wierzchołek
         size = matrix.getSize()
         included = [False for i in range(size)]  # zbiór krawędzi spinających
@@ -37,21 +37,24 @@ class Prim:
                         d[v] = Wuv
                         edges[v] = u
 
-        for i in range(1, size):
-            print '{}->{}'.format(ltr(i), ltr(edges[i]))
+        if printMe:
+            for i in range(1, size):
+                print '{}->{}'.format(ltr(i), ltr(edges[i]))
+        return edges
 
 
 class PrimPart:
-    def __init__(self, partNumber, matrixData):
+    def __init__(self, partNumber, matrixData, printMe=True):
         # posiadaj swoją małą macierz na której będziesz mógł wykonac indexOfMin oraz trzymac included itp
         # udostepnij interfejs dla moorglade
         self.partNumber = partNumber
+        self.printMe = printMe
 
         from utils import Matrix
 
         self.matrix = Matrix(matrixData)
         self.partSize = self.matrix.getNumCols()
-        self.height = self.matrix.getSize()
+
         # --- INIT PRIM --- #
         self.r = 0
         self.size = self.partSize
@@ -61,14 +64,13 @@ class PrimPart:
             self.d[self.r] = 0
         self.edges = [-1 for i in range(self.size)]
 
-    def processWeights(self, globalVertexIndex):
-        includedLocalVertex = globalVertexIndex - self.partSize * self.partNumber
-        u = includedLocalVertex
-        if 0 < u < self.partSize:
-            self.included[u] = True
+    def processWeights(self, u):
+        localU = u - self.partSize * self.partNumber
+        if 0 <= localU < self.partSize:
+            self.included[localU] = True
         for v in range(self.size):
-            if self.included[v] is False and self.matrix.hasEdge(includedLocalVertex, v):
-                Wuv = self.matrix.getWeight(includedLocalVertex, v)
+            if self.included[v] is False and self.matrix.hasEdge(u, v):
+                Wuv = self.matrix.getWeight(u, v)
                 if Wuv < self.d[v]:
                     self.d[v] = Wuv
                     self.edges[v] = u

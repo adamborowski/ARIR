@@ -62,6 +62,12 @@ def _parse_args():
         type=float,
         default=0.1
     )
+    parser.add_argument(
+        '--noprint',
+        help='pass 1 to disable printing',
+        type=int,
+        default=0
+    )
 
     return argparse.Namespace(**{
         key.replace('-', '_'): value
@@ -236,18 +242,27 @@ class Worker(multiprocessing.Process):
 
     def run(self):
         self.__log('Started.')
-
+        printMe = True  # self.__configuration.noprint == 0
+        checkMe = printMe
         wid = self.__worker_id
         numParts = self.__configuration.n_workers - 1
 
-        matrixSize = 4  # self.__configuration.n_matrix TODO
+        matrixSize = self.__configuration.n_vertices
         partSize = matrixSize / numParts
         if wid == 0:
-            matrixData = Utils.getMockup()
+            matrixData = Utils.genSymArray(matrixSize)
+            # display info
+            if printMe:
+                self.__log("Parallel Prim's algorithm for graph of size {} splitted into {} parts of {} vertices.".format(matrixSize,
+                                                                                                           numParts, partSize))
             # seq test
-            print "SEQ:"
-            Prim.sequential(Matrix(matrixData))
-
+            if checkMe:
+                if printMe:
+                    print "SEQ:"
+                seqMatrix = Matrix(matrixData)
+                seqEdgesResult = str(Prim.sequential(seqMatrix))
+            if printMe:
+                print "PAR:"
             # roześlij wszystkim cząstkowe macierze
             for partNumber in range(numParts):
                 partMatrix = Utils.subarray2d(matrixData, partNumber * partSize, 0, partSize, matrixSize)
@@ -255,24 +270,37 @@ class Worker(multiprocessing.Process):
             # rozpocznij algorytm Prima
             for i in range(matrixSize - 1):
                 minDist = float('inf')
-                indexToInclude = -1
+                u = -1
                 # pozbieranie opcji z partów
                 for partNumber in range(numParts):
                     indexOfMin, minValue = self._receive(partNumber + 1)[1]
-                    self.__log("partNumber {} received: index {} min {}".format(partNumber, indexOfMin, minValue))
-                    if minValue < minDist:
+                    if printMe:
+                        self.__log(
+                            "iter #{} part #{} returned local minimum at {} = {}".format(i, partNumber, indexOfMin,
+                                                                                         minValue))
+                    if minValue <= minDist:
                         minDist = minValue
-                        indexToInclude = indexOfMin
-                # w indexToInclude mamy indeks który musimy ewentualnie przekazać podczas aktualizcji d[n]s
+                        u = indexOfMin
+                # w u mamy indeks który musimy ewentualnie przekazać podczas aktualizcji d[n]s
                 for partNumber in range(numParts):
-                    self._send(partNumber + 1, [indexToInclude])  # to pozwoli aktualizować to co mają!!!
+                    self._send(partNumber + 1, [u])  # to pozwoli aktualizować to co mają!!!
             # zbieranie danych
             globalEdges = []
             for partNumber in range(numParts):
                 globalEdges += self._receive(partNumber + 1)[1]
             # wyświetlenie wyniku
-            for i in range(1, matrixSize):
-                print "{}->{}".format(ltr(i), ltr(globalEdges[i]))
+            if printMe:
+                for i in range(1, matrixSize):
+                    print "{}->{}".format(ltr(i), ltr(globalEdges[i]))
+            if checkMe:
+                parEdgesResult = str(globalEdges)
+                if printMe:
+                    print "seq result: \n{}, par result: \n{}".format(seqEdgesResult, parEdgesResult)
+                if seqEdgesResult != parEdgesResult:
+                    raise Exception("CALCULATION ERRORS")
+                else:
+                    if printMe:
+                        print "---------------------- SUCESS -------------------------"
 
         else:
             myPartNumber, matrixData = self._receive(0)[1]
