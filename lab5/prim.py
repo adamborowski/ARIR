@@ -12,7 +12,7 @@ class Prim:
         minVal = float('inf')
         minIndex = -1
         for index, val in enumerate(array):
-            if val < minVal and VT[index] is False:
+            if val <= minVal and VT[index] is False:
                 minVal = val
                 minIndex = index
         return minIndex
@@ -50,22 +50,25 @@ class PrimPart:
         from utils import Matrix
 
         self.matrix = Matrix(matrixData)
-        self.partSize = self.matrix.getSize()
+        self.partSize = self.matrix.getNumCols()
+        self.height = self.matrix.getSize()
         # --- INIT PRIM --- #
         self.r = 0
         self.size = self.partSize
         self.included = [False for i in range(self.size)]  # zbiór krawędzi spinających
         self.d = [float('inf') for i in range(self.size)]
-        self.d[self.r] = 0
+        if self.partNumber == 0:  # tylko dla pierwszego partu dajemy zero
+            self.d[self.r] = 0
         self.edges = [-1 for i in range(self.size)]
 
     def processWeights(self, globalVertexIndex):
-        includedLocalVertex = globalVertexIndex % self.partSize
+        includedLocalVertex = globalVertexIndex - self.partSize * self.partNumber
         u = includedLocalVertex
-        self.included[u] = True
+        if 0 < u < self.partSize:
+            self.included[u] = True
         for v in range(self.size):
-            if self.included[v] is False and self.matrix.hasEdge(u, v):
-                Wuv = self.matrix.getWeight(u, v)
+            if self.included[v] is False and self.matrix.hasEdge(includedLocalVertex, v):
+                Wuv = self.matrix.getWeight(includedLocalVertex, v)
                 if Wuv < self.d[v]:
                     self.d[v] = Wuv
                     self.edges[v] = u
@@ -73,5 +76,5 @@ class PrimPart:
     def getIndexOfMin(self):
         index = Prim.indexOfMin(self.d, self.included)
         globalIndex = index + self.partSize * self.partNumber
-        return globalIndex
+        return globalIndex, self.d[index]
 

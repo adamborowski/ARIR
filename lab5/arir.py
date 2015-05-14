@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Parallel & Distributed Algorithms - laboratory
 
@@ -239,47 +240,50 @@ class Worker(multiprocessing.Process):
         wid = self.__worker_id
         numParts = self.__configuration.n_workers - 1
 
-        matrixSize = 20  # self.__configuration.n_matrix
+        matrixSize = 4  # self.__configuration.n_matrix TODO
         partSize = matrixSize / numParts
         if wid == 0:
             matrixData = Utils.getMockup()
+            # seq test
+            print "SEQ:"
+            Prim.sequential(Matrix(matrixData))
+
+            # roześlij wszystkim cząstkowe macierze
             for partNumber in range(numParts):
                 partMatrix = Utils.subarray2d(matrixData, partNumber * partSize, 0, partSize, matrixSize)
                 self._send(partNumber + 1, [partNumber, partMatrix])
+            # rozpocznij algorytm Prima
+            for i in range(matrixSize - 1):
+                minDist = float('inf')
+                indexToInclude = -1
+                # pozbieranie opcji z partów
+                for partNumber in range(numParts):
+                    indexOfMin, minValue = self._receive(partNumber + 1)[1]
+                    self.__log("partNumber {} received: index {} min {}".format(partNumber, indexOfMin, minValue))
+                    if minValue < minDist:
+                        minDist = minValue
+                        indexToInclude = indexOfMin
+                # w indexToInclude mamy indeks który musimy ewentualnie przekazać podczas aktualizcji d[n]s
+                for partNumber in range(numParts):
+                    self._send(partNumber + 1, [indexToInclude])  # to pozwoli aktualizować to co mają!!!
+            # zbieranie danych
+            globalEdges = []
+            for partNumber in range(numParts):
+                globalEdges += self._receive(partNumber + 1)[1]
+            # wyświetlenie wyniku
+            for i in range(1, matrixSize):
+                print "{}->{}".format(ltr(i), ltr(globalEdges[i]))
+
         else:
             myPartNumber, matrixData = self._receive(0)[1]
-            print "myPartNumber: {} data is {}".format(myPartNumber, Matrix(matrixData).toString())
-            
-
-
-
-
-
-
-        # ============================================================================================================ #
-        # Example 1 - simple broadcast
-        #
-        # Description:
-        # Worker 0 sends random data to all other workers.
-        # ============================================================================================================ #
-        #
-        # if self.__worker_id == 0:
-        # data = Worker.__generate_random_data(16)
-        #
-        # self.__log('Transmitting data to other workers: {}'.format(data))
-        #
-        # for worker_id in range(1, self.__n_workers):
-        # self._send(worker_id, data)
-        #
-        # else:
-        # source_id, data = self._receive()
-        # self.__process(data)
-        # self.__log('Received data from worker {}: {}'.format(source_id, data))
-        #
-        # ============================================================================================================ #
-
-
-
+            primPart = PrimPart(myPartNumber, matrixData)
+            # każdy slave przesyła do rodzica dane o najtańszym połączeniu
+            for i in range(matrixSize - 1):
+                self._send(0, primPart.getIndexOfMin())
+                includedIndex = self._receive(0)[1][0]
+                primPart.processWeights(includedIndex)
+            # każdy na koniec odsyła wektor edges
+            self._send(0, primPart.edges)
         self.__log('Terminated.')
 
 
