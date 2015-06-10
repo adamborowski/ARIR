@@ -8,3 +8,8 @@ class Point:
 
     def __div__(self, other):
         return Point(self.x / other, self.y / other)
+
+    def __str__(self):
+        return "({:5.2f},{:5.2f})".format(self.x, self.y)
+    def __repr__(self):
+        return self.__str__()
