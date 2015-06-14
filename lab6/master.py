@@ -28,12 +28,13 @@ class Master:
 
             children = []
             for i in range(self.env.slavesPerMaster):
-                slaveThreadId, slaveChildren = self.env.worker._receive()
+                slaveThreadId, slaveChildren = self.env.worker._receive(self.masterProxy.getSlaveProxy(i).threadId)
                 children += slaveChildren
+
             subPopulation = parents + children
 
             # co kilka epok następuje ERA
-            if epoch % env.interchargeStep == 0:
+            if epoch % env.interchangeStep == 0 and self.env.numMasters > 1:
                 nextMaster = self.nav.getNext()
                 myMaster = self.masterProxy.masterId
                 nextMasterThreadId = self.env.getMasterThreadId(nextMaster)
@@ -49,22 +50,21 @@ class Master:
                     pointReceived = data[0]
                     self.env.worker._send(nextMasterThreadId, [pointSent])
 
-                self.echo("intercharge {} <> {} / sent {} recv {}\n".format(self.masterProxy.masterId, nextMaster,
-                                                                            pointSent,
-                                                                            pointReceived))
+                    self.echo("interchange {} <> {} / sent {} recv {}\n".format(self.masterProxy.masterId, nextMaster,
+                                                                                pointSent,
+                                                                                pointReceived))
+                    #
+                    # teraz wywal losowy punkt populacji i wstaw ten otrzymany
 
-                # teraz wywal losowy punkt populacji i wstaw ten otrzymany
-
-                # pointToRemove = random.choice(subPopulation)
-                # subPopulation.remove(pointToRemove)
-                # subPopulation.append(pointReceived)
+                    # pointToRemove = random.choice(subPopulation)
+                    # subPopulation.remove(pointToRemove)
+                    # subPopulation.append(pointReceived)
 
         # endfor population
         maxPoint = self.getBestPoint(subPopulation)
-
-        self.echo("subPopulation({}) best =({:.2f},{:.2f},{:.2f})".format(len(subPopulation),
-                                                                          env.problem.evaluate(maxPoint),
-                                                                          maxPoint.x, maxPoint.y))
+        self.echo("subPopulation({}) best = ({:.2f},{:.2f},{:.2f})".format(len(subPopulation),
+                                                                           env.problem.evaluate(maxPoint),
+                                                                           maxPoint.x, maxPoint.y))
 
     def generatePopulation(self):
         problem = self.env.problem
@@ -76,7 +76,7 @@ class Master:
         return population
 
     def echo(self, s):
-        print "{:02d} [MASTER {}] {}".format(self.env.threadId, self.masterProxy.masterId, s)
+        print "{:02d} [MASTER {}] {}\n".format(self.env.threadId, self.masterProxy.masterId, s)
 
     def selectParents(self, population):
 

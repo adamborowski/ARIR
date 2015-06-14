@@ -9,8 +9,13 @@ class Utils:
         l = len(list)
         chunkSize = int(math.ceil(float(l) / float(count)))
         lists = []
+        test = 0
         for i in range(count):
-            lists.append(list[i * chunkSize:(i + 1) * chunkSize])
+            sublist = list[i * chunkSize:(i + 1) * chunkSize]
+            lists.append(sublist)
+            test += len(sublist)
+        if test != l:
+            raise Exception("bug")
         return lists
 
     @staticmethod

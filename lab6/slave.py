@@ -71,6 +71,6 @@ class Slave:
         self.env.worker._send(self.masterProxy.threadId, children)
 
     def echo(self, s):
-        print "{:02d} [SLAVE {}.{}] {}".format(self.env.threadId, self.masterProxy.masterId,
+        print "{:02d} [SLAVE {}.{}] {}\n".format(self.env.threadId, self.masterProxy.masterId,
                                                self.slaveProxy.slaveLocalId,
                                                s)

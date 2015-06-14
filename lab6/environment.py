@@ -20,7 +20,7 @@ class Environment:
     def __init__(self, numMasters, slavesPerMaster, threadId, problem):
         self.numMasters = numMasters
         self.slavesPerMaster = slavesPerMaster
-        self.interchargeStep = 3
+        self.interchangeStep = 3
         self.threadId = threadId
         self.problem = problem
         self.worker = None

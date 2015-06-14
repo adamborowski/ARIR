@@ -224,13 +224,6 @@ class Worker(multiprocessing.Process):
     def _receive(self, worker_id=Network.any_id):
         return self.__network_endpoint.receive(worker_id)
 
-    @staticmethod
-    def __generate_random_data(length):
-        return [random.randint(-2048, 2048) for _ in range(length)]
-
-    def __log(self, message):
-        print '[WORKER {}] {}'.format(self.__worker_id, message)
-
     def __process(self, data):
         # simulates data processing delay by sleeping
         time.sleep(len(data) * self.__configuration.delay_process)
@@ -249,7 +242,7 @@ class Worker(multiprocessing.Process):
 
         problem = Problem(fn, 0, 10, 0, 10)
         problem.numEpoch = 10
-        problem.subPopulationSize = 100
+        problem.subPopulationSize = 200
 
 
         env = Environment(0, 1, 0, problem)
