@@ -2,6 +2,8 @@
 from environment import *
 from point import *
 import random
+from utils import Utils
+from utils import Navigator
 
 
 class Master:
@@ -10,25 +12,59 @@ class Master:
         :type env: Environment
         """
         self.env = env
+        self.masterProxy = env.getProxyByThreadId(env.threadId)
+        self.nav = Navigator(Utils.log2(env.numMasters), self.masterProxy.masterId)
         problem = env.problem
         # losuj swoją pod-populację
 
         subPopulation = self.generatePopulation()
-        for epoch in range(problem.numEpoch):  # kolejne przybliżenia
-            # dokonaj selekcji
 
+        for epoch in range(problem.numEpoch):
             parents = self.selectParents(subPopulation)
-            children = self.__slave__crossover_and_mutate(parents)
-            subPopulation = parents + children
-        maxEval = 0
-        for point in subPopulation:
-            ev = env.problem.evaluate(point)
-            if ev > maxEval:
-                maxEval = ev
-                maxPoint = point
-            print ("({:.2f},{:.2f},{:.2f})".format(ev, point.x, point.y))
+            random.shuffle(parents)  # dobieramy losowo punkty w part (para to sąsiednie elementy listy)
+            parentsChunked = Utils.splitList(parents, self.env.slavesPerMaster)
+            for i in range(self.env.slavesPerMaster):
+                self.env.worker._send(self.masterProxy.getSlaveProxy(i).threadId, parentsChunked[i])
 
-        print "=({:.2f},{:.2f},{:.2f})".format(env.problem.evaluate(maxPoint), maxPoint.x, maxPoint.y)
+            children = []
+            for i in range(self.env.slavesPerMaster):
+                slaveThreadId, slaveChildren = self.env.worker._receive()
+                children += slaveChildren
+            subPopulation = parents + children
+
+            # co kilka epok następuje ERA
+            if epoch % env.interchargeStep == 0:
+                nextMaster = self.nav.getNext()
+                myMaster = self.masterProxy.masterId
+                nextMasterThreadId = self.env.getMasterThreadId(nextMaster)
+                myMasterThreadId = self.env.getMasterThreadId(myMaster)
+                pointSent = self.getBestPoint(subPopulation)
+                # założenie, że master o mniejszym numerze zaczyna wysyłanie
+                if myMaster < nextMaster:  # my jestesmy pierwszi - najpierw wyslijmy
+                    self.env.worker._send(nextMasterThreadId, [pointSent])
+                    (thId, data) = self.env.worker._receive()
+                    pointReceived = data[0]
+                else:  # my jestesmy o wiekszym numerze - najpierw odbierz
+                    (thId, data) = self.env.worker._receive()
+                    pointReceived = data[0]
+                    self.env.worker._send(nextMasterThreadId, [pointSent])
+
+                self.echo("intercharge {} <> {} / sent {} recv {}\n".format(self.masterProxy.masterId, nextMaster,
+                                                                            pointSent,
+                                                                            pointReceived))
+
+                # teraz wywal losowy punkt populacji i wstaw ten otrzymany
+
+                # pointToRemove = random.choice(subPopulation)
+                # subPopulation.remove(pointToRemove)
+                # subPopulation.append(pointReceived)
+
+        # endfor population
+        maxPoint = self.getBestPoint(subPopulation)
+
+        self.echo("subPopulation({}) best =({:.2f},{:.2f},{:.2f})".format(len(subPopulation),
+                                                                          env.problem.evaluate(maxPoint),
+                                                                          maxPoint.x, maxPoint.y))
 
     def generatePopulation(self):
         problem = self.env.problem
@@ -39,9 +75,11 @@ class Master:
             population.append(point)
         return population
 
+    def echo(self, s):
+        print "{:02d} [MASTER {}] {}".format(self.env.threadId, self.masterProxy.masterId, s)
+
     def selectParents(self, population):
 
-        tmp = population[:]
         parents = []
         for i in range(len(population) / 2):
             survived = self.pickRandomPoint(population)
@@ -51,42 +89,15 @@ class Master:
         # print self.env.problem.evalArrayStr(tmp), '\n->\n', self.env.problem.evalArrayStr(parents)
         return parents
 
-    def __slave__crossover_and_mutate(self, parents):
-        random.shuffle(parents)
-        children = []
-        for i in range(0, len(parents), 2):
-            tpl = self.__slave__crossTwoParents(parents[i], parents[i + 1])
-            children.append(tpl[0])
-            children.append(tpl[1])
-        self.__slave_mutate(random.choice(children))
-        return children
-
-    def __slave__crossTwoParents(self, parent1, parent2):
-        # pierwszy punkt jest średnim wektorem
-        # drugi punkt jest średnią tylko jednego wymiaru (x lub y)
-        # przy zachowaniu pozostałej współrzędnej (rodzic 1 lub rodzic 2)
-        p1 = (parent1 + parent2) / 2
-        r = random.random()
-        if r < 0.25:
-            p2 = Point((parent1.x + parent2.x) / 2, parent1.y)
-        elif r < 0.5:
-            p2 = Point((parent1.x + parent2.x) / 2, parent2.y)
-        elif r < 0.75:
-            p2 = Point(parent1.x, (parent1.y + parent2.y) / 2)
-        else:
-            p2 = Point(parent2.x, (parent1.y + parent2.y) / 2)
-        return p1, p2
-
-    def __slave_mutate(self, point):
-        px = point.x
-        py = point.y
-        # mutacja polega na zamianie x z y i symetrię przez ox i oy
-        point.x = self.env.problem.x2 - (py - self.env.problem.x1)
-        point.y = self.env.problem.y2 - (px - self.env.problem.y1)
-
-        if random.random() < 0.95:
-            point.x = random.uniform(self.env.problem.x1, self.env.problem.x2)
-            point.y = random.uniform(self.env.problem.y1, self.env.problem.y2)
+    def getBestPoint(self, population):
+        ev = 0
+        best = None
+        for point in population:
+            pointEv = self.env.problem.evaluate(point)
+            if pointEv > ev:
+                ev = pointEv
+                best = point
+        return best
 
     def pickRandomPoint(self, population):
         # oceń każdy punkt (dystrybuanta oceny, punkt)
@@ -130,7 +141,7 @@ if __name__ == "__main__":
 
         problem = Problem(fn, 0, 10, 0, 10)
 
-        problem.numEpoch = 20
+        problem.numEpoch = 10
         env = Environment(0, 1, 0, problem)
         problem.subPopulationSize = 1000
         master = Master(env)

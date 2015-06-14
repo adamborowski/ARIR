@@ -20,8 +20,10 @@ class Environment:
     def __init__(self, numMasters, slavesPerMaster, threadId, problem):
         self.numMasters = numMasters
         self.slavesPerMaster = slavesPerMaster
+        self.interchargeStep = 3
         self.threadId = threadId
         self.problem = problem
+        self.worker = None
 
     def getMasterThreadId(self, masterId):
         # msss msss msss msss msss
@@ -41,10 +43,15 @@ class Environment:
         nodesPerMaster = self.slavesPerMaster + 1
         masterId = int(threadId / nodesPerMaster)
         slaveId = threadId % nodesPerMaster - 1
-        print "master: {} slave: {}".format(masterId, slaveId)
+        # print "master: {} slave: {}".format(masterId, slaveId)
         if slaveId == -1:
             return self.getMasterProxy(masterId)
         return self.getSlaveProxy(masterId, slaveId)
+
+    def getMasterProxyForSlave(self, threadId):
+        nodesPerMaster = self.slavesPerMaster + 1
+        masterId = int(threadId / nodesPerMaster)
+        return self.getMasterProxy(masterId)
 
 
 class UnitProxy:
@@ -71,6 +78,9 @@ class SlaveProxy(UnitProxy):
         self.slaveLocalId = slaveLocalId
         UnitProxy.__init__(self, threadId, environment)
         pass
+
+    def getMasterProxy(self):
+        return self.environment.getMasterProxy()
 
 
 if __name__ == "__main__":
