@@ -12,17 +12,23 @@ class Master:
         self.env = env
         problem = env.problem
         # losuj swoją pod-populację
+
         subPopulation = self.generatePopulation()
         for epoch in range(problem.numEpoch):  # kolejne przybliżenia
             # dokonaj selekcji
 
             parents = self.selectParents(subPopulation)
-            if len(subPopulation) % 2 == 1 or len(parents) % 2 == 1:
-                pass
             children = self.__slave__crossover_and_mutate(parents)
             subPopulation = parents + children
-            print parents, '->', children
-            pass
+        maxEval = 0
+        for point in subPopulation:
+            ev = env.problem.evaluate(point)
+            if ev > maxEval:
+                maxEval = ev
+                maxPoint = point
+            print ("({:.2f},{:.2f},{:.2f})".format(ev, point.x, point.y))
+
+        print "=({:.2f},{:.2f},{:.2f})".format(env.problem.evaluate(maxPoint), maxPoint.x, maxPoint.y)
 
     def generatePopulation(self):
         problem = self.env.problem
@@ -35,11 +41,14 @@ class Master:
 
     def selectParents(self, population):
 
+        tmp = population[:]
         parents = []
         for i in range(len(population) / 2):
             survived = self.pickRandomPoint(population)
             population.remove(survived)
             parents.append(survived)
+
+        # print self.env.problem.evalArrayStr(tmp), '\n->\n', self.env.problem.evalArrayStr(parents)
         return parents
 
     def __slave__crossover_and_mutate(self, parents):
@@ -75,7 +84,7 @@ class Master:
         point.x = self.env.problem.x2 - (py - self.env.problem.x1)
         point.y = self.env.problem.y2 - (px - self.env.problem.y1)
 
-        if random.random() < 0.2:
+        if random.random() < 0.95:
             point.x = random.uniform(self.env.problem.x1, self.env.problem.x2)
             point.y = random.uniform(self.env.problem.y1, self.env.problem.y2)
 
@@ -89,7 +98,7 @@ class Master:
         maxVal = max(evaluations)
         spread = abs(maxVal - minVal)  # jak oddalony jest min od max
         offset = -minVal + spread * 0.1  # najmniejsze wartości będą 10x mniej prawdopodobne niz najwieksze
-        offset += 1  # zabezpieczenie gdy wszystkie maja taka sama wage
+        offset = 0  # zabezpieczenie gdy wszystkie maja taka sama wage
         evalSum = 0
         for point in population:
             evalPt = self.env.problem.evaluate(point) + offset  # dodaj minVal aby nie było ujemnych ocen
@@ -111,11 +120,19 @@ class Master:
 
 
 if __name__ == "__main__":
+    from math import sin, cos, pow
+
     def test():
-        problem = Problem(lambda x, y: 1000 * x + y, 0, 1, 0, 1)
-        problem.numEpoch = 1000
+        # problem = Problem(lambda x, y: 0.1 * x + 1000 * y, 0, 1, 0, 1)
+
+        def fn(x, y):
+            return (sin(2 * x - 3) * cos(-x + pow(y, 2) - 2) + 3) * (pow((-x + 4), 2) + pow(2 * y - 5, 2) + 1)
+
+        problem = Problem(fn, 0, 10, 0, 10)
+
+        problem.numEpoch = 20
         env = Environment(0, 1, 0, problem)
-        problem.subPopulationSize = 12
+        problem.subPopulationSize = 1000
         master = Master(env)
 
     test()

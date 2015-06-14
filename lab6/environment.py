@@ -12,6 +12,9 @@ class Problem:
     def evaluate(self, point):
         return self.func(point.x, point.y)
 
+    def evalArrayStr(self, points):
+        return ["[{:.2f} {:.2f} {:.2f}]".format(self.evaluate(point), point.x, point.y) for point in points]
+
 
 class Environment:
     def __init__(self, numMasters, slavesPerMaster, threadId, problem):
