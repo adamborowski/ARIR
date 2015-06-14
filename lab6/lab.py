@@ -270,3 +270,5 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+
+# 16 6 --delay-connect 0.0001 --delay-transmit 0.0001  --delay-process 0.0001
