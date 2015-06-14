@@ -15,10 +15,13 @@ class Master:
         subPopulation = self.generatePopulation()
         for epoch in range(problem.numEpoch):  # kolejne przybliżenia
             # dokonaj selekcji
+
             parents = self.selectParents(subPopulation)
+            if len(subPopulation) % 2 == 1 or len(parents) % 2 == 1:
+                pass
             children = self.__slave__crossover_and_mutate(parents)
             subPopulation = parents + children
-            print parents, children
+            print parents, '->', children
             pass
 
     def generatePopulation(self):
@@ -72,6 +75,10 @@ class Master:
         point.x = self.env.problem.x2 - (py - self.env.problem.x1)
         point.y = self.env.problem.y2 - (px - self.env.problem.y1)
 
+        if random.random() < 0.2:
+            point.x = random.uniform(self.env.problem.x1, self.env.problem.x2)
+            point.y = random.uniform(self.env.problem.y1, self.env.problem.y2)
+
     def pickRandomPoint(self, population):
         # oceń każdy punkt (dystrybuanta oceny, punkt)
         tuplets = []
@@ -82,6 +89,7 @@ class Master:
         maxVal = max(evaluations)
         spread = abs(maxVal - minVal)  # jak oddalony jest min od max
         offset = -minVal + spread * 0.1  # najmniejsze wartości będą 10x mniej prawdopodobne niz najwieksze
+        offset += 1  # zabezpieczenie gdy wszystkie maja taka sama wage
         evalSum = 0
         for point in population:
             evalPt = self.env.problem.evaluate(point) + offset  # dodaj minVal aby nie było ujemnych ocen
@@ -91,9 +99,10 @@ class Master:
         randomNumber = random.uniform(0, evalSum)
         # idź od początku listy i sprawdzaj po kolei czy dystrybuanta jest wieksza od losowej liczby
         for triple in tuplets:
-            if randomNumber < triple[0]:
+            if randomNumber <= triple[0]:
                 return triple[1]
-        raise Exception("pick random point error")
+
+        raise Exception("pick random point error {} ".format(len(population)))
 
     def getNextMaster(self):
         # za kazym razem przekrec iteracje aby byl nowy sasiad
@@ -103,9 +112,10 @@ class Master:
 
 if __name__ == "__main__":
     def test():
-        problem = Problem(lambda x, y: 100 * x + y, -1, 1, -1, 1)
-        problem.numEpoch = 100
+        problem = Problem(lambda x, y: 1000 * x + y, 0, 1, 0, 1)
+        problem.numEpoch = 1000
         env = Environment(0, 1, 0, problem)
+        problem.subPopulationSize = 12
         master = Master(env)
 
     test()
